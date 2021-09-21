@@ -168,7 +168,7 @@ def display_data(df):
     view_data = input("Would you like to view 5 rows of individual trip data? Enter yes or no?").lower()
     start_loc = 0
     while view_data == "yes":
-        print(df.iloc[start_loc:start_loc+6])
+        print(df.iloc[start_loc:start_loc+5])
         view_data = input("Do you wish to display 5 rows more? Enter yes or no?: ").lower()
 
 
